@@ -16,7 +16,7 @@ cache:
     - vendor
 
 script:
-  - vendor/bin/phpunit tests --coverage-text
+  - vendor/bin/phpunit --configuration phpunit.xml
 notifications:
     email:
         - willicam09@hotmail.com
