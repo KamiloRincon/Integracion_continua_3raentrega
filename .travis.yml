@@ -5,7 +5,7 @@ php:
   - 7.3
 
 before_script:
-  - composer install --dev
+  - composer require atoum/atoum
 
 notifications:
   on_success: never
@@ -14,9 +14,8 @@ cache:
   directories:
     - $HOME/ .composer/cache/files
     - vendor
-
 script:
-  - vendor/bin/phpunit --configuration phpunit.xml
+  - vendor/bin/atoum
 notifications:
     email:
         - willicam09@hotmail.com
