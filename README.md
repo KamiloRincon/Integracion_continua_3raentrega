@@ -1,5 +1,5 @@
 # intregracion_continua_gr6
-
+![Build Status](https://app.travis-ci.com/KamiloRincon/Integracion_continua_3raentrega.svg?branch=master)
 # Proyecto Docker con PostgreSQL, PHP, pgAdmin y Listar Registros
 
 Este proyecto utiliza Docker para crear un entorno de desarrollo que incluye un servidor PostgreSQL, un servidor PHP con Apache, pgAdmin y un script PHP para listar registros de la base de datos.
@@ -98,4 +98,4 @@ Para ello puede hacer uso de la siguiente instruccion:
 
 -- Este proyecto te permite crear un entorno de desarrollo local con PostgreSQL, PHP y pgAdmin para administrar la base de datos y listar registros desde una aplicación web
 
-![Build Status](https://app.travis-ci.com/KamiloRincon/Integracion_continua_3raentrega.svg?branch=master)
+
